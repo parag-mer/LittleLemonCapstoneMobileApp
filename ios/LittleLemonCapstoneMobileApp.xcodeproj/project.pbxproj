@@ -12,6 +12,26 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		27643DA92C3C18E400A7A809 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643D962C3C18E400A7A809 /* Fontisto.ttf */; };
+		27643DAA2C3C18E400A7A809 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643D972C3C18E400A7A809 /* Octicons.ttf */; };
+		27643DAB2C3C18E400A7A809 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643D982C3C18E400A7A809 /* Feather.ttf */; };
+		27643DAC2C3C18E400A7A809 /* FontAwesome6_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643D992C3C18E400A7A809 /* FontAwesome6_Regular.ttf */; };
+		27643DAD2C3C18E400A7A809 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643D9A2C3C18E400A7A809 /* Entypo.ttf */; };
+		27643DAE2C3C18E400A7A809 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643D9B2C3C18E400A7A809 /* FontAwesome5_Brands.ttf */; };
+		27643DAF2C3C18E400A7A809 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643D9C2C3C18E400A7A809 /* MaterialCommunityIcons.ttf */; };
+		27643DB02C3C18E400A7A809 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643D9D2C3C18E400A7A809 /* AntDesign.ttf */; };
+		27643DB12C3C18E400A7A809 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643D9E2C3C18E400A7A809 /* Foundation.ttf */; };
+		27643DB22C3C18E400A7A809 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643D9F2C3C18E400A7A809 /* Ionicons.ttf */; };
+		27643DB32C3C18E400A7A809 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643DA02C3C18E400A7A809 /* FontAwesome5_Solid.ttf */; };
+		27643DB42C3C18E400A7A809 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643DA12C3C18E400A7A809 /* FontAwesome5_Regular.ttf */; };
+		27643DB52C3C18E400A7A809 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643DA22C3C18E400A7A809 /* FontAwesome.ttf */; };
+		27643DB62C3C18E400A7A809 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643DA32C3C18E400A7A809 /* Zocial.ttf */; };
+		27643DB72C3C18E400A7A809 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643DA42C3C18E400A7A809 /* EvilIcons.ttf */; };
+		27643DB82C3C18E400A7A809 /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643DA52C3C18E400A7A809 /* FontAwesome6_Solid.ttf */; };
+		27643DB92C3C18E400A7A809 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643DA62C3C18E400A7A809 /* SimpleLineIcons.ttf */; };
+		27643DBA2C3C18E400A7A809 /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643DA72C3C18E400A7A809 /* FontAwesome6_Brands.ttf */; };
+		27643DBB2C3C18E400A7A809 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27643DA82C3C18E400A7A809 /* MaterialIcons.ttf */; };
+		5160EC877B3424A5A0432DAB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9287F86ECDBC814255F1349A /* PrivacyInfo.xcprivacy */; };
 		7699B88040F8A987B510C191 /* libPods-LittleLemonCapstoneMobileApp-LittleLemonCapstoneMobileAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-LittleLemonCapstoneMobileApp-LittleLemonCapstoneMobileAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -36,14 +56,34 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LittleLemonCapstoneMobileApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LittleLemonCapstoneMobileApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LittleLemonCapstoneMobileApp/main.m; sourceTree = "<group>"; };
-	    13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = LittleLemonCapstoneMobileApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = LittleLemonCapstoneMobileApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-LittleLemonCapstoneMobileApp-LittleLemonCapstoneMobileAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LittleLemonCapstoneMobileApp-LittleLemonCapstoneMobileAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27643D962C3C18E400A7A809 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		27643D972C3C18E400A7A809 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		27643D982C3C18E400A7A809 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		27643D992C3C18E400A7A809 /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
+		27643D9A2C3C18E400A7A809 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		27643D9B2C3C18E400A7A809 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		27643D9C2C3C18E400A7A809 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		27643D9D2C3C18E400A7A809 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		27643D9E2C3C18E400A7A809 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		27643D9F2C3C18E400A7A809 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		27643DA02C3C18E400A7A809 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		27643DA12C3C18E400A7A809 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		27643DA22C3C18E400A7A809 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		27643DA32C3C18E400A7A809 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		27643DA42C3C18E400A7A809 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		27643DA52C3C18E400A7A809 /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Solid.ttf; sourceTree = "<group>"; };
+		27643DA62C3C18E400A7A809 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		27643DA72C3C18E400A7A809 /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
+		27643DA82C3C18E400A7A809 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-LittleLemonCapstoneMobileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleLemonCapstoneMobileApp.debug.xcconfig"; path = "Target Support Files/Pods-LittleLemonCapstoneMobileApp/Pods-LittleLemonCapstoneMobileApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-LittleLemonCapstoneMobileApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleLemonCapstoneMobileApp.release.xcconfig"; path = "Target Support Files/Pods-LittleLemonCapstoneMobileApp/Pods-LittleLemonCapstoneMobileApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-LittleLemonCapstoneMobileApp-LittleLemonCapstoneMobileAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleLemonCapstoneMobileApp-LittleLemonCapstoneMobileAppTests.debug.xcconfig"; path = "Target Support Files/Pods-LittleLemonCapstoneMobileApp-LittleLemonCapstoneMobileAppTests/Pods-LittleLemonCapstoneMobileApp-LittleLemonCapstoneMobileAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-LittleLemonCapstoneMobileApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LittleLemonCapstoneMobileApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LittleLemonCapstoneMobileApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-LittleLemonCapstoneMobileApp-LittleLemonCapstoneMobileAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleLemonCapstoneMobileApp-LittleLemonCapstoneMobileAppTests.release.xcconfig"; path = "Target Support Files/Pods-LittleLemonCapstoneMobileApp-LittleLemonCapstoneMobileAppTests/Pods-LittleLemonCapstoneMobileApp-LittleLemonCapstoneMobileAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		9287F86ECDBC814255F1349A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = LittleLemonCapstoneMobileApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -94,8 +134,36 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				9287F86ECDBC814255F1349A /* PrivacyInfo.xcprivacy */,
 			);
 			name = LittleLemonCapstoneMobileApp;
+			sourceTree = "<group>";
+		};
+		27643D952C3C18E400A7A809 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				27643D962C3C18E400A7A809 /* Fontisto.ttf */,
+				27643D972C3C18E400A7A809 /* Octicons.ttf */,
+				27643D982C3C18E400A7A809 /* Feather.ttf */,
+				27643D992C3C18E400A7A809 /* FontAwesome6_Regular.ttf */,
+				27643D9A2C3C18E400A7A809 /* Entypo.ttf */,
+				27643D9B2C3C18E400A7A809 /* FontAwesome5_Brands.ttf */,
+				27643D9C2C3C18E400A7A809 /* MaterialCommunityIcons.ttf */,
+				27643D9D2C3C18E400A7A809 /* AntDesign.ttf */,
+				27643D9E2C3C18E400A7A809 /* Foundation.ttf */,
+				27643D9F2C3C18E400A7A809 /* Ionicons.ttf */,
+				27643DA02C3C18E400A7A809 /* FontAwesome5_Solid.ttf */,
+				27643DA12C3C18E400A7A809 /* FontAwesome5_Regular.ttf */,
+				27643DA22C3C18E400A7A809 /* FontAwesome.ttf */,
+				27643DA32C3C18E400A7A809 /* Zocial.ttf */,
+				27643DA42C3C18E400A7A809 /* EvilIcons.ttf */,
+				27643DA52C3C18E400A7A809 /* FontAwesome6_Solid.ttf */,
+				27643DA62C3C18E400A7A809 /* SimpleLineIcons.ttf */,
+				27643DA72C3C18E400A7A809 /* FontAwesome6_Brands.ttf */,
+				27643DA82C3C18E400A7A809 /* MaterialIcons.ttf */,
+			);
+			name = Fonts;
+			path = "../node_modules/react-native-vector-icons/Fonts";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -118,6 +186,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				27643D952C3C18E400A7A809 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* LittleLemonCapstoneMobileApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* LittleLemonCapstoneMobileAppTests */,
@@ -243,8 +312,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27643DB22C3C18E400A7A809 /* Ionicons.ttf in Resources */,
+				27643DAA2C3C18E400A7A809 /* Octicons.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				27643DB52C3C18E400A7A809 /* FontAwesome.ttf in Resources */,
+				27643DAB2C3C18E400A7A809 /* Feather.ttf in Resources */,
+				27643DAE2C3C18E400A7A809 /* FontAwesome5_Brands.ttf in Resources */,
+				27643DBB2C3C18E400A7A809 /* MaterialIcons.ttf in Resources */,
+				27643DAC2C3C18E400A7A809 /* FontAwesome6_Regular.ttf in Resources */,
+				27643DB72C3C18E400A7A809 /* EvilIcons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				27643DB32C3C18E400A7A809 /* FontAwesome5_Solid.ttf in Resources */,
+				27643DBA2C3C18E400A7A809 /* FontAwesome6_Brands.ttf in Resources */,
+				27643DAF2C3C18E400A7A809 /* MaterialCommunityIcons.ttf in Resources */,
+				27643DAD2C3C18E400A7A809 /* Entypo.ttf in Resources */,
+				27643DB82C3C18E400A7A809 /* FontAwesome6_Solid.ttf in Resources */,
+				27643DA92C3C18E400A7A809 /* Fontisto.ttf in Resources */,
+				27643DB12C3C18E400A7A809 /* Foundation.ttf in Resources */,
+				27643DB42C3C18E400A7A809 /* FontAwesome5_Regular.ttf in Resources */,
+				27643DB02C3C18E400A7A809 /* AntDesign.ttf in Resources */,
+				27643DB92C3C18E400A7A809 /* SimpleLineIcons.ttf in Resources */,
+				27643DB62C3C18E400A7A809 /* Zocial.ttf in Resources */,
+				5160EC877B3424A5A0432DAB /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +606,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -544,6 +634,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CXX = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -563,6 +654,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -582,7 +675,14 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -590,6 +690,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -617,6 +718,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CXX = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -629,6 +731,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -647,7 +751,14 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
