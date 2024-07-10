@@ -10,16 +10,28 @@ import {Title} from '../components/Title';
 import {Header} from '../components/Header';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 import {useState} from 'react';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import {EMAIL_REGEX} from '../utils/AppConstants';
 
 export const OnboardingScreen = ({navigation}: {navigation: any}) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
 
-  const onSubmit = () => {
-    console.log('name: ', name);
-    console.log('email: ', email);
-
-    navigation.navigate('home');
+  const onSubmit = async () => {
+    if (name && email) {
+      try {
+        await AsyncStorage.setItem(
+          'user',
+          JSON.stringify({
+            name: name,
+            email: email,
+          }),
+        );
+        await navigation.navigate('home');
+      } catch (error) {
+        console.log('error in onSubmit :: ', error);
+      }
+    }
   };
   return (
     <SafeAreaView style={styles.container}>
@@ -43,13 +55,20 @@ export const OnboardingScreen = ({navigation}: {navigation: any}) => {
               style={styles.field}
               value={email}
               onChangeText={setEmail}
+              autoCapitalize="none"
+              keyboardType="email-address"
             />
+            {email.length > 0 && !EMAIL_REGEX.test(email) && (
+              <Text style={styles.errorText}>Invalid email</Text>
+            )}
           </View>
         </View>
         <TouchableOpacity
           style={[
             styles.button,
-            !email || !name ? styles.buttonDisabled : styles.buttonEnabled,
+            !email || !name || !EMAIL_REGEX.test(email)
+              ? styles.buttonDisabled
+              : styles.buttonEnabled,
           ]}
           onPress={onSubmit}
           disabled={!email || !name}>
@@ -99,5 +118,10 @@ const styles = StyleSheet.create({
   buttonText: {
     color: 'white',
     fontWeight: 'bold',
+  },
+  errorText: {
+    color: '#FF3131',
+    marginTop: 3,
+    marginLeft: 3,
   },
 });

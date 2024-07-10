@@ -20,6 +20,8 @@ import {
 import {fetchData} from '../utils/fetchData';
 import {ISectionData, getSectionListData} from '../utils/sectionListMaker';
 import {SectionItem} from '../utils/SectionItem';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import {IuserData, getUserData} from '../utils/userData';
 
 export const HomeScreen = ({navigation}: {navigation: any}) => {
   const [search, setSearch] = useState('');
@@ -29,6 +31,7 @@ export const HomeScreen = ({navigation}: {navigation: any}) => {
     {name: 'desserts', selected: false},
   ]);
   const [sectionListData, setSectionListData] = useState<ISectionData[]>([]);
+  const [userData, setUserData] = useState<IuserData>();
 
   const onFilterSelect = (index: number) => {
     const newSelection = [...sections];
@@ -36,7 +39,7 @@ export const HomeScreen = ({navigation}: {navigation: any}) => {
     setSections(newSelection);
   };
 
-  const dataGetter = async () => {
+  const RestaurantDataGetter = async () => {
     try {
       console.log('in try block');
       await createTable();
@@ -55,8 +58,14 @@ export const HomeScreen = ({navigation}: {navigation: any}) => {
     }
   };
 
+  const userDataGetter = async () => {
+    const data = await getUserData();
+    setUserData(data);
+  };
+
   useEffect(() => {
-    dataGetter();
+    RestaurantDataGetter();
+    userDataGetter();
   }, []);
 
   const categorySelector = async () => {
@@ -83,7 +92,11 @@ export const HomeScreen = ({navigation}: {navigation: any}) => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Header screen="home" navigation={navigation} />
+      <Header
+        screen="home"
+        navigation={navigation}
+        userImage={userData?.image}
+      />
       <Title />
       <Searchbar
         value={search}

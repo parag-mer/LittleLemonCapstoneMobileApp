@@ -1,13 +1,15 @@
-import {Image, StyleSheet, View} from 'react-native';
+import {Image, StyleSheet, TouchableOpacity, View} from 'react-native';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import FontAwesome6 from 'react-native-vector-icons/FontAwesome6';
 
 export const Header = ({
   navigation,
   screen,
+  userImage,
 }: {
   navigation?: any;
   screen?: string;
+  userImage?: string;
 }) => {
   return (
     <View style={styles.container}>
@@ -23,14 +25,17 @@ export const Header = ({
         source={require('../assets/headerImage.png')}
         style={styles.imageStyle}
       />
-      <FontAwesome6
-        name="user"
-        size={30}
-        style={{marginRight: 10}}
+      <TouchableOpacity
         onPress={() => navigation.navigate('profile')}
-        color={screen !== 'home' ? 'transparent' : 'black'}
         disabled={screen !== 'home'}
-      />
+        style={{marginRight: 10, width: 30}}>
+        {screen === 'home' && (
+          <Image
+            source={userImage ? userImage : require('../assets/user.png')}
+            style={styles.userImage}
+          />
+        )}
+      </TouchableOpacity>
     </View>
   );
 };
@@ -48,5 +53,10 @@ const styles = StyleSheet.create({
   },
   iconStyle: {
     marginLeft: 10,
+  },
+  userImage: {
+    width: 30,
+    height: 30,
+    resizeMode: 'contain',
   },
 });
